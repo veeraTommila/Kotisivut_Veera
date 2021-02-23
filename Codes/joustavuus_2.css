@@ -1,0 +1,99 @@
+﻿/* CSS Document */
+      *{
+           margin:0;
+          
+            }
+      
+      
+        a:link="In english"{
+        color:#000000;}
+        a:link="HAMK:issa"{
+        color:#000000;}
+        a:link="piirtäminen, valokuvaaminen"{
+        color:#000000;}
+        a:visited{
+        color:#CC0000;}
+        a:hover{
+        color:#00CC00;}
+        body{
+      
+        font-family: Candara;
+        font-size: 15px;
+      }
+ /*-------------------NAVI-------------------*/     
+        .navi{
+          position: relative;
+      }
+      
+        .navi ul a:hover{
+          color:#006600;
+          background-color:#FF961E;
+        }
+      
+      .navi ul{
+          align: center;
+          background-color:rgb(204,102,0);
+          width:100%;
+          list-style-type:none;
+          overflow: auto;
+          hight: auto;
+          padding: 0;
+      }
+      
+      .navi ul a{
+        float: left;
+        display: block;
+        color: rgb(255,255,255);
+        padding: 8px 12px;
+        text-decoration:none;
+      }
+      
+      .navi ul li{
+      }
+      
+         .palkki {
+           background-color:rgb(204,102,0);
+           width:100%;
+           height:auto;
+           margin:0;
+           padding:0;
+      }
+      
+        .palkki h1 {
+          background-color:rgb(204,102,0);
+          color:rgb(255,255,255);
+          margin-left: 20px;
+          padding: 5px;
+      }
+      
+/*---------------------------------PALKIN JALKEEN---------------------------------*/      
+      .sisalto {
+      margin-left: 25px;
+      }
+      
+      #Paanimi  {
+        text-align: center;
+      }
+      
+      p {
+        overflow:auto;
+        width:60%;
+        
+        text-align:left;
+      }
+      
+      
+      h3{
+        background-color:rgb(204,102,0);
+        color:rgb(255,255,255);
+    
+      }
+      body {
+        background-image: url('Taustasivu.png');
+        min-width:300px;
+        margin: 0 auto;
+        
+     }
+     
+td {vertical-align:top;padding:5px;}
+tr {margin-left:20px;}
